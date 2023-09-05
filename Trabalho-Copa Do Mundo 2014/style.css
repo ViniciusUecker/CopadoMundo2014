@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* Suas outras propriedades CSS aqui */
+    background-image: url('../img/1693664269179.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Opcional: fixa os planos de fundo na tela */
+    background-position: right top; /* Define a posição das imagens */
+    background-size: 58%; /* Defina o tamanho desejado aqui */
+    font-family: 'Bevan', serif;    
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 0; /* Deixe o padding-left como 0 para evitar o deslocamento */
+    padding-right: 0; /* Remova o padding-right para evitar o deslocamento */
+    margin-left: 0; /* Deixe a margem esquerda como 0 para evitar o deslocamento */
+    max-height: 35vh;
+    overflow-y: scroll;
+    margin-right: 27%; /* Ajuste este valor para mover o conteúdo para a direita */
+    margin-top:1%;
+
+}
+#espaco{
+    margin-top:3%;
+    margin-left:-2%;
+}
+        figure {
+            text-align: center;
+        }
+
+        figure img {
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.2s ease-in-out;
+
+        }
+
+        figure:hover img {
+            transform: scale(1.1);
+        }
+
+        p.grupo-text {
+            background-color: yellow;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+
+        a.link-camiseta {
+            text-decoration: none;
+            color: inherit;
+        }
+        .menu{
+margin-left: 13%;
+margin-top: 3.5%;
+
+}
+.menu a{
+    padding-right:7%;
+}
+a{
+    font-size: 20px;
+   color: #4169E1;
+    text-decoration: none;/*tirar o sublinhado do link*/
+}
+a:hover{
+color: red;
+transition: 0.5s all;/*esse efeito deixa a transição do hover mais lenta*/
+
+}
+a:active{
+    color: #8de000;
+    transition: 0.0s all;/*esse efeito deixa a transição do hover mais lenta*/
+    
+    }
+    #sobre{
+        color: red;
+        margin-left:85%;
+        text-align:right bottom;
+        position: fixed;
+        margin-top: 38%;
+    
+    }
+    #sobre:hover{
+        color: blue;
+        transition: 0.5s all;/*esse efeito deixa a transição do hover mais lenta*/
+    
+    }
+    #sobre:active{
+        color: #ff0000;
+        transition: 0.0s all;/*esse efeito deixa a transição do hover mais lenta*/
+    
+    }
+.caixa {
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(to top,#11119c,#0047ab,#23b0b9,#aee5df,white);
+    z-index: -1; /* Colocar atrás de todo o conteúdo */
+
+}
+h1{
+    color:#ffbf00;
+    margin-right: 27%;
+    margin-top:-0.5%;
+    font-size: 35px;
+    
+}
+#logo1{
+    width:13%;
+    margin-top: -6%;
+    margin-left:40%;
+}

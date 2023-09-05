@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* Suas outras propriedades CSS aqui */
+    background-image: url('../img/1693664372270.png'), url('../img/1693664269179.png'),url('../img/1693664931341.png');
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed,fixed; /* Opcional: fixa os planos de fundo na tela */
+    background-position: left top, right top, center; /* Define a posição das imagens */
+    background-size: 58%; /* Defina o tamanho desejado aqui */
+}
+.menu{
+margin-left: 37%;
+margin-top: 3%;
+
+}
+.menu a{
+    padding-right: 5%;
+}
+a{
+    font-family: 'Bevan', serif;    
+    font-size: 20px;
+   color: #4169E1;
+    text-decoration: none;/*tirar o sublinhado do link*/
+}
+a:hover{
+color: red;
+transition: 0.5s all;/*esse efeito deixa a transição do hover mais lenta*/
+
+}
+a:active{
+    color: #8de000;
+    transition: 0.0s all;/*esse efeito deixa a transição do hover mais lenta*/
+    
+    }
+    #mata-mata{
+        margin-top: 3.5%;
+        margin-left:11.5%;
+    }
+div +a{
+    color: red;
+display: flex;
+justify-content: center;
+margin-top: 33%;
+margin-left:-5%;
+}
+div +a:hover{
+    color: blue;
+    transition: 0.5s all;/*esse efeito deixa a transição do hover mais lenta*/
+
+}
+div +a:active{
+    color: #ff0000;
+    transition: 0.0s all;/*esse efeito deixa a transição do hover mais lenta*/
+
+}
+
+.caixa {
+    width: 100%;
+    height: 28vh;
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(to top,#11119c,#0047ab,#23b0b9,#aee5df,white);
+    z-index: -1; /* Colocar atrás de todo o conteúdo */
+
+}
